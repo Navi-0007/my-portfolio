@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+    Strata by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Navdeep's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Additional CSS for More button functionality */
+        .read-more-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+        }
+        .read-more-btn {
+            cursor: pointer;
+            color: #fff;
+            background-color: #87CEFA; /* Light blue color */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 25px; /* Rounded corners */
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .read-more-btn:hover {
+            background-color: #00BFFF; /* Darker blue color */
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+            <h1><strong>Hello,</strong><br />
+                <strong style="font-size: 2em;">Welcome To Navdeep's Portfolio</strong><br />
+            </h1>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        <section id="one">
+            <header class="major">
+                <h2>About Me</h2>
+            </header>
+            <p>I am a dedicated student specializing in computer networking at College LaSalle Montreal. With hands-on experience in managing servers, routers, and switches, I am well-versed in network administration. Currently, I am expanding my expertise by pursuing advanced courses in cloud computing, aiming to integrate modern cloud technologies into my skill set. Additionally, I have experience working with Linux servers, including DHCP, DNS, and Apache, which has further enhanced my skills in server management and automation.</p>
+            <div id="about-more" class="read-more-content">
+                <p>In my free time, I enjoy exploring new technologies and contributing to open-source projects. My goal is to become a certified network engineer and work on large-scale network infrastructure projects. I am a strong communicator and team player, with a knack for problem-solving and a passion for continuous learning. I am fluent in English and Punjabi, and have a basic understanding of French. I believe in the power of technology to transform lives and am committed to using my skills to make a positive impact.</p>
+                <h3>Key Projects and Experience</h3>
+                <ul>
+                    <li><strong>Active Directory Project:</strong> Implemented and managed an Active Directory environment, enhancing user authentication and access control.</li>
+                    <li><strong>Exchange Server:</strong> Set up and maintained an Exchange Server, improving email communication and collaboration within the organization.</li>
+                    <li><strong>VPN Configuration:</strong> Configured Virtual Private Networks (VPNs) to ensure secure remote access for users.</li>
+                    <li><strong>DNS and DHCP:</strong> Managed DNS and DHCP servers to streamline network management and improve connectivity.</li>
+                </ul>
+                <h3>Certifications</h3>
+                <ul>
+                    <li>CCNA: Introduction to Networks</li>
+                    <li>CCNA: Switching, Routing, and Wireless Essentials</li>
+                    <li>CCNA: Enterprise Networking, Security, and Automation</li>
+                    <li>AWS Cloud Foundations Part 1: Computer & Network Hardware</li>
+                </ul>
+                <h3>Future Goals</h3>
+                <p>Aspiring to become a lead network engineer at a major tech firm, focusing on innovative cloud solutions and large-scale network infrastructure projects.</p>
+                <h3>Personal Interests</h3>
+                <p>In my free time, I enjoy hiking and exploring new technologies.</p>
+            </div>
+            <button id="read-more-btn" class="read-more-btn" onclick="toggleAbout()">More...</button>
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+            <h2>Recent Projects</h2>
+            <div class="row">
+                <article class="col-6 col-12-xsmall work-item">
+                    <div class="image-container">
+                        <img src="images/thumbs/01.jpg" alt="" class="image fit thumb" />
+                    </div>
+                    <h3>Exchange Server Deployment</h3>
+                    <p>Deployed Exchange Server in a single domain environment. Along with that, I have also set up Certificate Services for secure communication while sending emails. <a href="pdfs/EX-Report.pdf" target="_blank">View Project</a></p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <div class="image-container">
+                        <img src="images/thumbs/02.jpg" alt="" class="image fit thumb" />
+                    </div>
+                    <h3>Active Directory Implementation</h3>
+                    <p>Implemented Active Directory in a multi-domain environment. Configured Group Policies for user authentication and access control. <span>Project not available</span></p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <div class="image-container">
+                        <img src="images/thumbs/03.jpg" alt="" class="image fit thumb" />
+                    </div>
+                    <h3>VPN Configuration</h3>
+                    <p>Configured Virtual Private Networks (VPNs) for secure remote access. Implemented encryption protocols to ensure data privacy and security. <span>Project not available</span></p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <div class="image-container">
+                        <img src="images/thumbs/04.jpg" alt="" class="image fit thumb" />
+                    </div>
+                    <h3>DNS and DHCP Management</h3>
+                    <p>Managed Domain Name System (DNS) and Dynamic Host Configuration Protocol (DHCP) servers. Configured IP addresses and resolved domain names to improve network connectivity. <span>Project not available</span></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+            <h2>Get In Touch</h2>
+            <p>If you have any questions or would like to get in touch, please use the form below or reach out via email.</p>
+            <div class="row">
+                <div class="col-8 col-12-small">
+                    <form method="post" action="https://formspree.io/f/xldjdjbz">
+                        <div class="row gtr-uniform gtr-50">
+                            <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                            <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                            <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" /></li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="col-4 col-12-small">
+                    <ul class="icons">
+                        <li><a href="https://linkedin.com/in/navdeep-singh-saini-ab91462ab" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://github.com/Navi-0007" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="mailto:navdeepsingh220604@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                <li><a href="https://github.com/Navi-0007" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://linkedin.com/in/navdeep-singh-saini-ab91462ab" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:navdeepsingh220604@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Navdeep Singh Saini</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function toggleAbout() {
+            var moreText = document.getElementById("about-more");
+            var btnText = document.getElementById("read-more-btn");
+
+            if (moreText.style.maxHeight) {
+                moreText.style.maxHeight = null;
+                btnText.innerHTML = "More...";
+            } else {
+                moreText.style.maxHeight = moreText.scrollHeight + "px";
+                btnText.innerHTML = "Less...";
+            }
+        }
+    </script>
+
+</body>
+</html>
